@@ -243,6 +243,7 @@ header span a{
     margin: 15px;
     background-color: white;
     border-radius: 10px;
+    padding-bottom: 4px;
 }
 .most_popular_box h2{
     display: flex;
