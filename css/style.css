@@ -1,0 +1,324 @@
+/* GENERAL*/
+*
+{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main{
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.starGrey{
+    color: #F2F2F2;
+}
+
+/*Header*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+header img{
+    padding: 30px 20px;
+}
+header nav{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+nav a{
+    width: 160px;
+    padding-top: 45px;
+    text-align: center;
+    border-top: 2px solid #F2F2F2;
+}
+nav a:hover{
+    color: #0065FC;
+    border-color: #0065FC;
+}
+header span{
+    padding-top: 45px;
+    padding-right: 20px;
+}
+header span a{
+    color: #0065FC;
+    font-weight: bold;
+}
+/*MAIN*/
+
+/* Title & Search*/
+.section_t_s{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.title p{
+    margin-bottom: 20px;
+}
+.search{
+    display: flex;
+    margin-bottom: 30px;
+}
+.map_marker{
+    width: 20px;
+    height: 25px;
+    background-color: #F2F2F2;
+    border: 1px solid white;
+    padding: 15px 18px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.input_city_search{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid #F2F2F2;
+    border-top: 1px solid #F2F2F2;
+}
+.search__marker_mob{
+    display: none;
+}
+.input_submit_search{
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    background-color: #0065FC;
+}
+.input_submit_search:hover{
+    color: #0065FC;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+}
+/*Filtres et Info*/
+.filters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.filters h3{
+    margin-right: 30px;
+}
+.filters button{
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    height: 45px;
+    border: 2px solid #F2F2F2;
+    border-radius: 45px;
+    background: none;
+    margin-right: 25px;
+    margin-top: 5px;
+    padding: 0 20px 0 0;
+    cursor: pointer;
+}
+.filters_icon{
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 45px;
+    color: #0065FC;
+    background-color: #F2F2F2;
+}
+.filters button:hover{
+    color: #0065FC;
+    background-color: #F2F2F2;
+}
+.filters_section small{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.info_icon{
+    margin-right: 10px;
+    color: #0065FC;
+    background-color: white;
+    width: 14px;
+    height: 20px;
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+    margin-right: 15px;
+    padding: 0px 0 0 10px ;
+}
+/*SECTION Lodging Box*/
+#lodging{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 600px;
+}
+.lodging_box{
+    max-width: 880px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+.lodging_box h2{
+    padding: 10px 0px 0 32px;
+}
+.box_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.box_card a{
+    cursor: pointer;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.card img{
+    width: 225px;
+    height: 112px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 4px;
+}
+.card h4{
+    padding-left: 10px;
+    margin: 4px 0;
+}
+.card p{
+    padding-left: 10px;
+    margin: 4px 0;
+    font-size: 0.9em;
+    font-weight: inherit;
+}
+.card span{
+    padding-left: 10px;
+    color: #0065FC;
+}
+.card:hover{
+    background-color: #DEEBFF;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.show_more{
+    font-weight: bolder;
+    font-size: 1.2em;
+    display: flex;
+    margin: 20px 0 0 32px;
+}
+.show_more:hover{
+    color: #DEEBFF;
+}
+/* Most popular box*/
+.most_popular_box{
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    align-items: center;
+    margin-left: 30px;
+    padding: 10px 0;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+.most_popular_box .icon_space{
+    margin-left: 100px;
+}
+.card_most_popular{
+    display: flex;
+    width: 332px;
+    height: 135px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.most_popular_box h2{
+    display: flex;
+}
+.card_most_popular img{
+    width: 125px;
+    height: 130px;
+    padding: 5px 0 5px 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-size: cover;
+    margin: 0;
+}
+.detail_card{
+    width: 180px;
+    padding-left: 15px;
+    margin: 0;
+}
+.detail_card p{
+    margin: -15px 0 30px 0;
+    font-size: 0.9em;
+
+}
+.detail_card span{
+    margin-top: 50px;
+    color: #0065FC;
+}
+.card_most_popular:hover{
+    background-color: #DEEBFF;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+/*Section Activity box*/
+#activity{
+    margin: 65px 0;
+}
+.activity_box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 468px;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.card_activity{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 0px #F2F2F2;
+}
+.card_activity img{
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-size: cover;
+    margin: 0;
+}
+.img_vieux_port{
+    height: 392px;
+}
+.img_fort_pomègues{
+    height: 180px;
+}
+.img_ile_frioul{
+    height: 110px;
+}
+.img_parc_calanques{
+    height: 392px;
+}
+.img_dame_garde{
+    height: 130px;
+}
+.img_parc_longchamp{
+    height: 155px;
+}
+.card_activity h4{
+    padding: 0 0 10px 15px;
+}
+.card_activity:hover{
+    border: 2px solid #DEEBFF;
+}
