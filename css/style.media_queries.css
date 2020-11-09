@@ -1,0 +1,98 @@
+@media all and (max-width: 1200px){
+    /*HEADER*/
+    header{
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #nav_anchor{
+        flex-basis: 100%;
+        order: 3;
+    }
+    #nav_anchor a{
+        width: 50%;
+        border-top: none;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+    #nav_anchor a:hover{
+        color: #0065FC;
+        border-color: #0065FC;
+    }
+    header span{
+        order: 2;
+        padding-top: 5px;
+    }
+    /*MAIN*/ 
+    main{
+        padding: 5px;
+    }
+    .input_submit_search{
+        display: none;
+    }
+    .search__marker_mob{
+        display: block;
+        width: 60px;
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+        background-color: #0065FC;
+    }
+    .search__marker_mob:hover{
+        background-color: #F2F2F2;
+        color: #0065FC;
+        border: 2px solid #F2F2F2;
+    }
+    /*Filtres*/
+    .filters h3{
+        flex-basis: 100%;
+    }
+    /*SECTION Lodging Box*/
+    #lodging{
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+    .lodging_box{
+        align-self: center;
+        background: none;
+    }
+    .most_popular_box{
+        max-width: 100%;
+        margin: 0;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .most_popular_box .box_card{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .most_popular_box h2{
+        margin: 15px 0 0 0;
+    }
+    /*Activity*/
+    .activity_box{
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        height: auto;
+    }
+    .card_activity img{
+        width: 320px;
+        height: 124px !important;
+    }
+    /*Footer*/
+    .footer_box{
+        flex-direction: column;
+    }
+    .footer_box div{
+        margin-right: 0;
+        margin-left: 20px;
+        padding-bottom: 0;
+    }
+    .footer_box h3{
+        padding: 46px 0 8px 0;
+    }
+
+}
