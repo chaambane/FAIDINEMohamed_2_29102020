@@ -1,3 +1,5 @@
+/*First Breakpoint*/
+
 @media all and (max-width: 1200px){
     /*HEADER*/
     header{
@@ -94,5 +96,30 @@
     .footer_box h3{
         padding: 46px 0 8px 0;
     }
+}
+/* Second Breakpoint*/
 
+@media all and (min-width: 768px) and (max-width:1200px){
+    /*Section Lodging Box*/
+    .card img{
+        width: 320px;
+    }
+    /*Footer*/
+    .footer_box{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+/* Third Breakpoint*/
+
+@media all and (min-width: 320px) and (max-width: 768px){
+    /*Section Lodging Box*/
+    .card img{
+        width: 290px;
+        height: 120px;
+    }
+    .card_activity img{
+        width: 320px;
+        height: 124px !important;
+    }
 }
