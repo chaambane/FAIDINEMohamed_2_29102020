@@ -123,3 +123,11 @@
         height: 124px !important;
     }
 }
+/*Fourth Breakpoint*/
+
+@media all and (min-width: 1200px) and (max-width:1260px){
+    .card img{
+        width: 205px;
+        height: 120px ;
+    }
+}
