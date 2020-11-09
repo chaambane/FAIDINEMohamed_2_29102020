@@ -322,3 +322,32 @@ header span a{
 .card_activity:hover{
     border: 2px solid #DEEBFF;
 }
+/*FOOTER*/
+footer{
+    width: 100%;
+}
+.footer_box{
+    display: flex;
+    margin: auto;
+    background-color: #F2F2F2;
+}
+.footer_box div{
+    margin-right: 220px;
+    padding-left: 30px;
+}
+footer h3{
+    padding: 40px 0 8px 0;
+}
+footer div ul{
+    list-style-type: none;
+    padding: 0;
+}
+footer div li{
+    padding: 8px 0;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+footer div li:hover{
+    color: #0065FC;
+    font-weight: bold;
+}
