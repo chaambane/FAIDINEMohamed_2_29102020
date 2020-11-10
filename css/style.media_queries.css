@@ -80,7 +80,7 @@
         justify-content: space-around;
         height: auto;
     }
-    .card_activity img{
+    .image_activity{
         width: 320px;
         height: 124px !important;
     }
@@ -101,7 +101,7 @@
 
 @media all and (min-width: 768px) and (max-width:1200px){
     /*Section Lodging Box*/
-    .card img{
+    .image_lodging{
         width: 320px;
     }
     /*Footer*/
@@ -118,7 +118,7 @@
         width: 290px;
         height: 120px;
     }
-    .card_activity img{
+    .image_activity{
         width: 320px;
         height: 124px !important;
     }
@@ -126,7 +126,7 @@
 /*Fourth Breakpoint*/
 
 @media all and (min-width: 1200px) and (max-width:1260px){
-    .card img{
+    .image_lodging{
         width: 205px;
         height: 120px ;
     }

@@ -185,7 +185,25 @@ header span a{
     margin: 10px;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
-.card img{
+.auberge_la_cannebiere{
+    background-image: url(../images/hebergements/4_small/auberge_la_cannebiere.jpg);
+}
+.hotel_du_port{
+    background-image: url(../images/hebergements/4_small/hotel_du_port.jpg);
+}
+.hotel_les_mouettes{
+    background-image: url(../images/hebergements/4_small/hotel_les_mouettes.jpg);
+}
+.hotel_de_la_mer{
+    background-image: url(../images/hebergements/4_small/hotel_de_mer.jpg);
+}
+.auberge_de_panier{
+    background-image: url(../images/hebergements/4_small/auberge_le_panier.jpg);
+}
+.hotel_chez_amina{
+    background-image: url(../images/hebergements/4_small/hotel_chez_amina.jpg);
+}
+.image_lodging{
     width: 225px;
     height: 112px;
     border-top-right-radius: 10px;
@@ -220,7 +238,7 @@ header span a{
     margin: 20px 0 0 32px;
 }
 .show_more:hover{
-    color: #DEEBFF;
+    color: #0065FC;
 }
 /* Most popular box*/
 .most_popular_box{
@@ -248,14 +266,24 @@ header span a{
 .most_popular_box h2{
     display: flex;
 }
-.card_most_popular img{
+.image_most_popular{
     width: 125px;
     height: 130px;
     padding: 5px 0 5px 5px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     background-size: cover;
+    background-position: center;
     margin: 0;
+}
+.soleil_du_matin{
+    background-image: url(../images/hebergements/4_small/hotel_le_soleil_du_matin.jpg);
+}
+.au_coeur_de_l_eau{
+    background-image: url(../images/hebergements/4_small/au_coeur_de_l_eau.jpg);
+}
+.hotel_tout_bleu_et_blanc{
+    background-image: url(../images/hebergements/4_small/hotel_tout_bleu_et_blanc.jpg);
 }
 .detail_card{
     width: 180px;
@@ -277,51 +305,57 @@ header span a{
 }
 /*Section Activity box*/
 #activity{
-    margin: 65px 0;
+    margin: 45px 0;
 }
 .activity_box{
+    height: 440px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 468px;
     align-content: space-between;
     justify-content: space-between;
+    margin-top: 24px;
 }
 .card_activity{
     border-radius: 10px;
-    background-color: white;
     box-shadow: 2px 2px 0px #F2F2F2;
 }
-.card_activity img{
-    width: 300px;
+.image_activity{
+    width: 301px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     background-size: cover;
-    margin: 0;
+    background-position: center;
 }
 .img_vieux_port{
-    height: 392px;
+    background-image: url(../images/activites/4_small/vieux_port.jpg);
+    height: 364px;
 }
 .img_fort_pomègues{
-    height: 180px;
+    background-image: url(../images/activites/4_small/fort_de_pomègues.jpg);
+    height: 175px;
 }
 .img_ile_frioul{
-    height: 110px;
+    background-image: url(../images/activites/4_small/iles_du_frioul.jpg);
+    height: 111px;
 }
 .img_parc_calanques{
-    height: 392px;
+    background-image: url(../images/activites/4_small/parc_national_des_calanques.jpg);
+    height: 364px;
 }
 .img_dame_garde{
-    height: 130px;
+    background-image: url(../images/activites/4_small/notre_dame_de_la_garde.jpg);
+    height: 135px;
 }
 .img_parc_longchamp{
+    background-image: url(../images/activites/4_small/parc_longchamp.jpg);
     height: 155px;
 }
 .card_activity h4{
     padding: 0 0 10px 15px;
 }
 .card_activity:hover{
-    border: 2px solid #DEEBFF;
+    color: #0065FC;
 }
 /*FOOTER*/
 footer{
