@@ -1,6 +1,6 @@
 /*First Breakpoint*/
 
-@media all and (max-width: 1200px){
+@media all and (max-width: 1230px){
     /*HEADER*/
     header{
         width: 100%;
@@ -57,6 +57,7 @@
         max-height: none;
     }
     .lodging_box{
+        width: auto;
         align-self: center;
         background: none;
     }
@@ -99,7 +100,7 @@
 }
 /* Second Breakpoint*/
 
-@media all and (min-width: 768px) and (max-width:1200px){
+@media all and (min-width: 768px) and (max-width:1230px){
     /*Section Lodging Box*/
     .image_lodging{
         width: 320px;
@@ -114,20 +115,19 @@
 
 @media all and (min-width: 320px) and (max-width: 768px){
     /*Section Lodging Box*/
-    .card img{
+    .image_lodging{
         width: 290px;
-        height: 120px;
     }
     .image_activity{
         width: 320px;
-        height: 124px !important;
     }
 }
 /*Fourth Breakpoint*/
 
-@media all and (min-width: 1200px) and (max-width:1260px){
+@media all and (min-width: 1200px) and (max-width:1282px){
     .image_lodging{
-        width: 205px;
-        height: 120px ;
+        width: 210px;
+        height: 114px;
+
     }
 }
