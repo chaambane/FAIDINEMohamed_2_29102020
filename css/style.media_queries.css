@@ -45,7 +45,6 @@
     .search__marker_mob:hover{
         background-color: #F2F2F2;
         color: #0065FC;
-        border: 2px solid #F2F2F2;
     }
     /*Filtres*/
     .filters h3{
@@ -128,6 +127,5 @@
     .image_lodging{
         width: 210px;
         height: 114px;
-
     }
 }
